@@ -146,4 +146,162 @@ int main()
 				break;
 			}
 		}*/
+
+	/*ZADANIE 9*/
+	/*int t;
+	cout << "Podaj temperature: ";
+	cin >> t;
+	if (t <= 0) {
+		cout <<  "Mroz" <<endl;
+	}
+	else if (t > 0 && t <= 10) {
+		cout << "Chlodno" << endl;
+	}
+	else if (t > 10 && t <= 20) {
+		cout << "Umiarkowanie" << endl;
+	}
+	else if (t > 20 && t <= 30) {
+		cout << "Cieplo" << endl;
+	}
+	else {
+		cout << "Goraco" << endl;
+	}*/
+
+	/*ZADANIE 10*/
+	/*int a, b, c;
+	cout << "Podaj liczbe a: ";
+	cin >> a;
+	cout << "Podaj liczbe b: ";
+	cin >> b;
+	cout << "Podaj liczbe c: ";
+	cin >> c;
+	if (a > b && a > c) {
+		cout << "Najwieksza jest liczba a" << endl;
+	}
+	else if (b > a && b > c) {
+		cout << "Najwieksza jest liczba b" << endl;
+	}
+	else if (c > b && c > a) {
+		cout << "Najwieksza jest liczba c" << endl;
+	}
+	else {
+		cout << "Liczby sa rowne" << endl;
+	}*/
+
+	/*ZADANIE 11*/
+	/*int r;
+	cout << "Podaj rok: ";
+	cin >> r;
+	if (r % 4 == 0 && r % 100 != 0 || r % 400 == 0) {
+		cout << "Rok jest przestepny" << endl;
+	}
+	else {
+		cout << "Rok nie jest przestepny" << endl;
+	}*/
+
+	/*ZADANIE 12*/
+	/*int w;
+	cout << "Menu" << endl;
+	cout << "1. Start" << endl;
+	cout << "2. Ustawienia" << endl;
+	cout << "3. Pomoc" << endl;
+	cout << "4. Koniec" << endl;
+	cout << "Twoj wybor: ";
+	cin >> w;
+	cout << "" << endl;
+	switch (w) {
+	case 1:
+		cout << "Wybtano start" << endl;
+		break;
+	case 2:
+		cout << "Wybtano ustawienia" << endl;
+		break;
+	case 3:
+		cout << "Wybtano pomoc" << endl;
+		break;
+	case 4:
+		cout << "Wybrano koniec" << endl;
+		break;
+	default:
+		cout << "Zla opcja" << endl;
+	}*/
+
+	/*ZADANIE 13*/
+	/*int o;
+	cout << "Podaj ocene (1-5): ";
+	cin >> o;
+	cout << "" << endl;
+	switch (o) {
+	case 1:
+		cout << "Niedostateczny" << endl;
+		break;
+	case 2:
+		cout << "Dopuszczajacy" << endl;
+		break;
+	case 3:
+		cout << "Dostateczny" << endl;
+		break;
+	case 4:
+		cout << "Dobry" << endl;
+		break;
+	case 5:
+		cout << "Bardzo dobry" << endl;
+		break;
+	default:
+		cout << "Zla ocena" << endl;
+	}*/
+
+	/*ZADANIE 16*/
+	/*for (int i = 1; i <= 10; i++) {
+		for (int j = 1; j <= 10; j++) {
+			cout << i * j << "\t";
+		}
+		cout << "" << endl;
+	}*/
+	
+	/*ZADANIE 17*/
+	/*int l;
+	int d = 0;
+	cout << "Podaj liczbe calkowita nieujemna: ";
+	cin >> l;
+	if (l == 0) {
+		d = 1;
+	}
+	else {
+		while (l > 0) {
+			d++;
+			l = l / 10;
+		}
+	}
+	cout << d << endl;*/
+
+	/*ZADANIE 19*/
+	/*int w;
+	do {
+		cout << "" << endl;
+		cout << "Menu" << endl;
+		cout << "1. Start" << endl;
+		cout << "2. Ustawienia" << endl;
+		cout << "3. Pomoc" << endl;
+		cout << "4. Koniec" << endl;
+		cout << "Twoj wybor: ";
+		cin >> w;
+		cout << "" << endl;
+		switch (w) {
+		case 1:
+			cout << "Wybtano start" << endl;
+			break;
+		case 2:
+			cout << "Wybtano ustawienia" << endl;
+			break;
+		case 3:
+			cout << "Wybtano pomoc" << endl;
+			break;
+		case 4:
+			cout << "Wybrano koniec" << endl;
+			break;
+		default:
+			cout << "Zla opcja" << endl;
+		}
+	} while (w != 4);*/
 }
